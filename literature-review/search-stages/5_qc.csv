@@ -1,0 +1,19 @@
+id;type;qc1;qc2;qc3;qc4;qc5;qc6;qc7;authors;abstract;articleTitle;doi;publicationYear;source
+1;;;;;;;;;W. Wang, P. Zhang, C. Sun and D. Feng;;Smart customer service in unmanned retail store enhanced by large language model;10.1038/s41598-024-71089-9;2024.0;SpringerLink
+2;;;;;;;;;A. Følstad and C. Taylor;;Investigating the user experience of customer service chatbot interaction: a framework for qualitative analysis of chatbot dialogues;10.1007/s41233-021-00046-5;2021.0;SpringerLink
+3;;;;;;;;;Y. Zhang, R. Y. K. Lau, J. D. Xu, Y. Rao and Y. Li;;Business chatbots with deep learning technologies: state-of-the-art, taxonomies, and future research directions;10.1007/s10462-024-10744-z;2024.0;SpringerLink
+4;;;;;;;;;S. Shah, H. Ghomeshi, E. Vakaj, E. Cooper and S. Fouad;;A review of natural language processing in contact centre automation;10.1007/s10044-023-01182-8;2023.0;SpringerLink
+5;;;;;;;;;K. K. Nirala, N. K. Singh and V. S. Purani;;A survey on providing customer and public administration based services using AI: chatbot;10.1007/s11042-021-11458-y;2022.0;SpringerLink
+6;;;;;;;;;B. Abu‐Salih, M. Alweshah, M. Alazab, M. Al‐Okaily, M. Alahmari, M. Al‐Habashneh and S. Al‐Sharaeh;;Natural language inference model for customer advocacy detection in online customer engagement;10.1007/s10994-023-06476-w;2024.0;SpringerLink
+7;;;;;;;;;H. Jahanshahi, S. Kazmi and M. Cevik;;Auto Response Generation in Online Medical Chat Services;10.1007/s41666-022-00118-x;2022.0;SpringerLink
+8;;;;;;;;;A. Mor, C. Orsenigo, M. S. Gomez and C. Vercellis;;Shaping the causes of product returns: topic modeling on online customer reviews;10.1007/s10660-024-09901-x;2024.0;SpringerLink
+9;;;;;;;;;C. Kim and J. Lee;;Discovering patterns and trends in customer service technologies patents using large language model;10.1016/j.heliyon.2024.e34701;2024.0;ScienceDirect
+10;;;;;;;;;J. B. Ilagan and J. R. Ilagan;;A prototype of a conversational virtual university support agent powered by a large language model that addresses inquiries about policies in the student handbook;10.1016/j.procs.2024.06.278;2024.0;ScienceDirect
+11;;;;;;;;;S. Cho, M. Lee, J. Yu, J. Yoon, J.-B. Choi, K.-H. Jung and J. Cho;;Leveraging Large Language Models for Improved Understanding of Communications With Patients With Cancer in a Call Center Setting: Proof-of-Concept Study;10.2196/63892;2024.0;ScienceDirect
+12;;;;;;;;;L. P. X. Yong, J. Y. M. Tung, Z. Y. L. Lee, W. S. K. Kuan and M. T. Chua;;Performance of Large Language Models in Patient Complaint Resolution: Web-Based Cross-Sectional Survey;10.2196/56413;2024.0;ScienceDirect
+13;;;;;;;;;K. I. Roumeliotis, N. D. Tselikas and D. K. Nasiopoulos;;LLMs in e-commerce: A comparative analysis of GPT and LLaMA models in product review evaluation;10.1016/j.nlp.2024.100056;2024.0;ScienceDirect
+14;;;;;;;;;J. J. Bird and A. Lotfi;;Customer service chatbot enhancement with attention-based transfer learning;10.1016/j.knosys.2024.112293;2024.0;ScienceDirect
+15;;;;;;;;;S. Bonechi, G. Palma, M. Caronna, M. Ugolini, A. Massaro and A. Rizzo;;Enhancing Customer Support in Banking: Leveraging AI for Efficient Ticket Classification;10.1016/j.procs.2024.09.235;2024.0;ScienceDirect
+16;;;;;;;;;K. R. Hauruma, R. Ma and W. Long;;Real Estate with AI: An agent based on LangChain;10.1016/j.procs.2024.08.199;2024.0;ScienceDirect
+17;;;;;;;;;B. Ho, T. Mayberry, K. L. Nguyen, M. Dhulipala and V. K. Pallipuram;;ChatReview: A ChatGPT-enabled natural language processing framework to study domain-specific user reviews;10.1016/j.mlwa.2023.100522;2024.0;ScienceDirect
+18;;;;;;;;;M. Shahin, F. Chen, M. Maghanaki and A. Hosseinzadeh;;Adapting the GPT engine for proactive customer insight extraction in product development;10.1016/j.mfglet.2024.09.164;2024.0;ScienceDirect
