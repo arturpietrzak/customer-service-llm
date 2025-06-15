@@ -55,6 +55,8 @@ def process_json_files_to_excel(directory_path, output_excel_path):
                 # Extract fields
                 product_name = product_data.get('name', '')
                 features = product_data.get('features', {})
+                producer = product_data.get('producer', {}).get('name', '')
+                xkom_category = product_data.get('category', {}).get('parentCategoryName', '')
 
                 # Convert features to string (JSON format)
                 features_str = json.dumps(features, ensure_ascii=False) if features else ''
@@ -75,7 +77,9 @@ def process_json_files_to_excel(directory_path, output_excel_path):
                 # Add to extracted data
                 extracted_data.append({
                     'id': file_id,
+                    'producer': producer,
                     'productName': product_name,
+                    'xkomCategory': xkom_category,
                     'features': features_str,
                     'price': price,
                     'productDescription': product_description
@@ -99,7 +103,8 @@ def process_json_files_to_excel(directory_path, output_excel_path):
         df = pd.DataFrame(extracted_data)
 
         # Reorder columns to match requirements
-        df = df[['id', 'productName', 'features', 'price', 'productDescription']]
+        df = df[['id', 'producer', 'productName', 'price', 'xkomCategory', 'features', 'productDescription']]
+        df = df.sort_values(by=['xkomCategory'])
 
         # Export to Excel
         try:
@@ -116,7 +121,7 @@ def process_json_files_to_excel(directory_path, output_excel_path):
 if __name__ == "__main__":
     # Set your directory path here
     directory_path = r"./product_data_json/"  # Replace with your actual path
-    output_excel_path = "products_data_1.xlsx"
+    output_excel_path = "products_data.xlsx"
 
     # Alternative: Use current directory
     # directory_path = "."
