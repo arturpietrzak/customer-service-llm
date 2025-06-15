@@ -53,7 +53,7 @@ def process_json_files_to_excel(directory_path, output_excel_path):
                     continue
 
                 # Extract fields
-                product_name = product_data.get('productName', '')
+                product_name = product_data.get('name', '')
                 features = product_data.get('features', {})
 
                 # Convert features to string (JSON format)
@@ -115,8 +115,8 @@ def process_json_files_to_excel(directory_path, output_excel_path):
 # Example usage
 if __name__ == "__main__":
     # Set your directory path here
-    directory_path = r"./scraped_data/"  # Replace with your actual path
-    output_excel_path = "products_data.xlsx"
+    directory_path = r"./product_data_json/"  # Replace with your actual path
+    output_excel_path = "products_data_1.xlsx"
 
     # Alternative: Use current directory
     # directory_path = "."
