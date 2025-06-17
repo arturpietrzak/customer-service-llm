@@ -15,7 +15,7 @@ class ExcelGeminiProcessor:
         """
         self.api_key = api_key
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-2.0-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
 
     def process_features(self, features_text: str) -> str:
         """
@@ -52,7 +52,7 @@ class ExcelGeminiProcessor:
         if pd.isna(description_text) or not description_text.strip():
             return ""
 
-        prompt = f"Oczyść ten tekst. Zwróć sam tekst: {description_text}"
+        prompt = f"Poniższy tekst zawiera różne elementy HTML. Oczyść ten tekst. Zwróć sam tekst: {description_text}"
 
         try:
             response = self.model.generate_content(prompt)
@@ -264,10 +264,10 @@ def main():
     """
     # Configuration
     API_KEY = "AIzaSyAZ_5ZrNP7-ReXst2jLISYDWdhRKYU3zQo"  # Replace with your actual API key
-    INPUT_FILE = "products_data_1.xlsx"  # Replace with your input file path
-    OUTPUT_FILE = "processed_products_data_2.xlsx"  # Replace with your desired output file path
-    START_ROW = 0  # Row index to start from (0-based, so 0 = first row)
-    DELAY_BETWEEN_CALLS = 4.0  # Delay in seconds between API calls
+    INPUT_FILE = "products_data_1_processed.xlsx"  # Replace with your input file path
+    OUTPUT_FILE = "processed_products_data_2_processed.xlsx"  # Replace with your desired output file path
+    START_ROW = 166  # Row index to start from (0-based, so 0 = first row)
+    DELAY_BETWEEN_CALLS = 6.0  # Delay in seconds between API calls
 
     # You can also get API key from environment variable
     # API_KEY = os.getenv('GEMINI_API_KEY')
