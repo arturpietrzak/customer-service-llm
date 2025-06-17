@@ -1,0 +1,12 @@
+Smartfony : 19
+Akcesoria GSM : 22
+Dyski twarde : 24
+Inteligentne zegarki : 18
+Karty graficzne : 22
+Klawiatury : 20
+Laptopy/Notebooki/Ultrabooki : 22
+Monitory : 23
+Myszki : 24
+Słuchawki : 24
+Tablety : 22
+Urządzenie sieciowe : 21
