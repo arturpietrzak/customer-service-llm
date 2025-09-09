@@ -1,0 +1,110 @@
+"id","productName","features","price","productDescription"
+"1308418","Redmi Note 14 6/128GB Midnight Black","[{""key"": ""Procesor"", ""id"": ""001900000000"", ""description"": ""Procesor to kluczowy element każdego smartfona. Wszystkie zadania i procesy obsługiwane są przez tę właśnie jednostkę. Od jego mocy obliczeniowej zależy płynność działania urządzenia oraz prędkość realizacji powierzonych mu zadań. Procesor z dużą liczbą rdzeni oraz jego wysokie taktowanie umożliwia bardziej profesjonalne zastosowanie smartfona i sprawną obsługę wymagających aplikacji."", ""values"": [{""name"": ""MediaTek Helio G99-Ultra (8 rdzeni do 2,2 GHz)"", ""description"": null}]}, {""key"": ""Układ graficzny"", ""id"": ""001910000000"", ""description"": ""Jednostka odpowiadająca za obraz wyświetlany na ekranie Twojego smartfona. Jego wydajność decyduje o prędkości przetwarzania bardziej skomplikowanych grafik. Odgrywa kluczową rolę podczas obsługi zaawansowanych gier mobilnych."", ""values"": [{""name"": ""Mali-G57 MC2"", ""description"": null}]}, {""key"": ""Pamięć RAM"", ""id"": ""001920000000"", ""description"": ""To inaczej pamięć operacyjna systemu. Wszystkie procesy przechowują swoje dane w pamięci RAM, dlatego od jej wielkości zależą możliwości oraz płynność działania smartfona. Im jej więcej, tym bardziej skomplikowane programy będziemy mogli obsłużyć oraz uruchomić kilka aplikacji jednocześnie. Przy małej pojemności pamięci RAM podczas pracy możemy napotkać spadki wydajności."", ""values"": [{""name"": ""6 GB"", ""description"": null}]}, {""key"": ""Pamięć wbudowana"", ""id"": ""001930000000"", ""description"": ""To pamięć masowa służąca do przechowywania wszystkich Twoich zdjęć, filmów, aplikacji i dokumentów. Im wyższa wartość, tym więcej plików możesz posiadać w pamięci urządzenia."", ""values"": [{""name"": ""128 GB"", ""description"": null}]}, {""key"": ""Maks. pojemność karty pamięci"", ""id"": ""072740000000"", ""description"": null, ""values"": [{""name"": ""1 TB"", ""description"": null}]}, {""key"": ""Typ ekranu"", ""id"": ""001940000000"", ""description"": ""Typ matrycy ma kluczowe znaczenie dla jakości wyświetlanych treści na ekranie Twojego smartfona. W zależności od zastosowanej technologii zużycie energii może być mniejsze, a obraz wyróżniać się lepszym nasyceniem barw i szerszymi kątami widzenia, co pozytywnie wpłynie na Twoje wrażenia podczas oglądania zdjęć lub filmów."", ""values"": [{""name"": ""Dotykowy, AMOLED"", ""description"": null}]}, {""key"": ""Częstotliwość odświeżania ekranu"", ""id"": ""074070000000"", ""description"": ""Im wyższa wartość, tym większa płynność wyświetlanego obrazu. Ekran nie będzie smużyć, a zwiększona częstotliwość odświeżania pozytywnie wpłynie na całkowite wrażenia korzystania ze smartfona."", ""values"": [{""name"": ""120 Hz"", ""description"": null}]}, {""key"": ""Przekątna ekranu"", ""id"": ""001950000000"", ""description"": null, ""values"": [{""name"": ""6,67\\"""", ""description"": null}]}, {""key"": ""Rozdzielczość ekranu"", ""id"": ""001960000000"", ""description"": null, ""values"": [{""name"": ""2400 x 1080"", ""description"": null}]}, {""key"": ""Rozdzielczość aparatu - tył"", ""id"": ""072780000000"", ""description"": null, ""values"": [{""name"": ""108.0 Mpix"", ""description"": null}, {""name"": ""2.0 Mpix - makro"", ""description"": null}, {""name"": ""2.0 Mpix - czujnik głębi"", ""description"": null}]}, {""key"": ""Rozdzielczość aparatu - przód"", ""id"": ""072790000000"", ""description"": null, ""values"": [{""name"": ""20.0 Mpix"", ""description"": null}]}, {""key"": ""Przysłona obiektywu"", ""id"": ""053850000000"", ""description"": null, ""values"": [{""name"": ""f/2.4 - tylny obiektyw"", ""description"": null}, {""name"": ""f/1.7 - tylny obiektyw"", ""description"": null}, {""name"": ""f/2.2 - przedni obiektyw"", ""description"": null}]}, {""key"": ""Dodatkowe cechy aparatu"", ""id"": ""072810000000"", ""description"": null, ""values"": [{""name"": ""Wbudowana lampa błyskowa"", ""description"": null}]}, {""key"": ""Łączność"", ""id"": ""001970000000"", ""description"": null, ""values"": [{""name"": ""4G (LTE)"", ""description"": null}, {""name"": ""Wi-Fi"", ""description"": null}, {""name"": ""NFC"", ""description"": null}, {""name"": ""Bluetooth 5.3"", ""description"": null}]}, {""key"": ""Złącza"", ""id"": ""001990000000"", ""description"": null, ""values"": [{""name"": ""USB Typu-C - 1 szt."", ""description"": null}, {""name"": ""Gniazdo kart nanoSIM - 2 szt. (drugi slot wspólny z czytnikiem kart pamięci)"", ""description"": null}, {""name"": ""Wyjście słuchawkowe/głośnikowe - 1 szt."", ""description"": null}]}, {""key"": ""Czytnik linii papilarnych"", ""id"": ""072850000000"", ""description"": null, ""values"": [{""name"": ""W ekranie"", ""description"": null}]}, {""key"": ""Moc ładowania"", ""id"": ""141660000000"", ""description"": null, ""values"": [{""name"": ""max. 33 W"", ""description"": null}]}, {""key"": ""Obudowa"", ""id"": ""072860000000"", ""description"": null, ""values"": [{""name"": ""Szkło Corning Gorilla Glass 5 - wyświetlacz"", ""description"": null}]}, {""key"": ""Odporności"", ""id"": ""084950000000"", ""description"": ""Klasa IP określa poziom odporności urządzenia na zachlapania, wodę oraz pył zgodnie z normą IEC 60529. Odporność może się obniżyć w efekcie normalnego zużycia. Gwarancja zwykle nie obejmuje uszkodzeń spowodowanych przez ciecze. Dokładne warunki użytkowania urządzenia znajdziesz w instrukcji obsługi lub na stronie producenta."", ""values"": [{""name"": ""Pyłoszczelność i wodoszczelność (IP54)"", ""description"": null}]}, {""key"": ""Dual SIM"", ""id"": ""054750000000"", ""description"": null, ""values"": [{""name"": ""Dual SIM - Obsługa dwóch kart nano-SIM"", ""description"": null}]}, {""key"": ""Dodatkowe informacje"", ""id"": ""002110000000"", ""description"": null, ""values"": [{""name"": ""Wbudowane głośniki stereo"", ""description"": null}, {""name"": ""Skaner twarzy"", ""description"": null}]}, {""key"": ""Pojemność baterii"", ""id"": ""002000000000"", ""description"": ""Określa jaki zapas energii może przechowywać bateria. Wyższe wartości oznaczają z reguły, że smartfon na jednym ładowaniu będzie mógł działać dłużej niż modele ze znacznie mniejszą pojemnością. Należy jednak pamiętać, że żywotność baterii jest uzależniona głównie od podzespołów, używanych aplikacji i inteligentnego zarządzania energią przez system operacyjny."", ""values"": [{""name"": ""5500 mAh"", ""description"": null}]}, {""key"": ""Kolor"", ""id"": ""045880000000"", ""description"": null, ""values"": [{""name"": ""Czarny"", ""description"": null}]}, {""key"": ""Wysokość"", ""id"": ""002090000000"", ""description"": null, ""values"": [{""name"": ""165 mm"", ""description"": null}]}, {""key"": ""Szerokość"", ""id"": ""002080000000"", ""description"": null, ""values"": [{""name"": ""78 mm"", ""description"": null}]}, {""key"": ""Grubość"", ""id"": ""002070000000"", ""description"": null, ""values"": [{""name"": ""8,2 mm"", ""description"": null}]}, {""key"": ""Waga"", ""id"": ""002100000000"", ""description"": null, ""values"": [{""name"": ""200 g"", ""description"": null}]}, {""key"": ""Rodzaj gwarancji"", ""id"": ""068380000000"", ""description"": null, ""values"": [{""name"": ""Standardowa"", ""description"": null}]}, {""key"": ""Gwarancja"", ""id"": ""040440000000"", ""description"": null, ""values"": [{""name"": ""24 miesiące (gwarancja producenta)"", ""description"": null}]}]","699.0","<div class=""content""><link href=""https://ftp.stati.pl/KP/styles_1.css?v=1.3"" rel=""stylesheet"">
+<div data-sku=""1308418"" id=""new_content_desc"" style=""margin-bottom: 30px;"">
+	<!-- HEADER_INTRO -->
+	<div class=""desc_section head_desc"">
+		<h2>
+			Xiaomi Redmi Note 14</h2>
+		<p>
+			Redmi Note 14 to urządzenie, kt&oacute;re łączy w sobie najnowsze technologie, przemyślane wzornictwo i wszechstronność, aby sprostać Twoim codziennym potrzebom. Wyposażony w potężny system fotograficzny, wydajny procesor i wyświetlacz o imponującej jakości, zapewnia płynne działanie i doskonałe wrażenia wizualne bez kompromis&oacute;w. Idealny zar&oacute;wno do pracy, jak i rozrywki.</p>
+	</div>
+	<!-- HEADER_INTRO_END --><!-- HEADER_IMAGE -->
+	<div class=""desc_section img_head"">
+		<img alt=""Xiaomi Redmi Note 14 wygląd"" class=""header_desktop lazyloaded lazyload"" data-src=""https://allegro.stati.pl/AllegroIMG/PRODUCENCI/XIAOMI/Redmi-Note-14/Xiaomi-Redmi-Note-14-wyglad.jpg""> <img alt=""Xiaomi Redmi Note 14 wygląd"" class=""header_mobile lazyloaded lazyload"" data-src=""https://allegro.stati.pl/AllegroIMG/PRODUCENCI/XIAOMI/Redmi-Note-14/Xiaomi-Redmi-Note-14-wyglad1.jpg""></div>
+	<!-- HEADER_IMAGE_END --><!-- ICONS -->
+	<div class=""desc_section emo_keys"">
+		<h2>
+			Smartfon, kt&oacute;ry sprosta każdemu wyzwaniu</h2>
+		<div class=""keys_emo"">
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona kamera"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/kamera.svg""></span>
+				<h3>
+					Precyzyjna fotografia</h3>
+				<p>
+					Dzięki zaawansowanemu aparatowi o rozdzielczości 108 Mpix i potr&oacute;jnemu zoomowi, możesz uchwycić nawet najdrobniejsze detale z wyjątkową ostrością. Tryb nocny oraz algorytmy AI zapewniają wyraźne zdjęcia w słabym oświetleniu, przekształcając nocne ujęcia w żywe obrazy. Przedni aparat 20 Mpix idealnie nadaje się do selfie i zdjęć grupowych, a funkcje AI dodają efektu profesjonalizmu każdemu kadrowi.</p>
+			</div>
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona smartfon1"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/smartfon1.svg""></span>
+				<h3>
+					Komfort i elegancja na co dzień</h3>
+				<p>
+					Ergonomiczna obudowa Redmi Note 14 została zaprojektowana z myślą o wygodnym użytkowaniu przez cały dzień. Zaokrąglone krawędzie i lekka konstrukcja sprawiają, że telefon świetnie leży w dłoni. Obudowa umożliwia dopasowanie stylu do Twojej osobowości, zapewniając r&oacute;wnocześnie ponadczasową estetykę.</p>
+			</div>
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona wytrzymalosc"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/wytrzymalosc.svg""></span>
+				<h3>
+					Wytrzymałość na każdą pogodę</h3>
+				<p>
+					Z certyfikatem IP54, urządzenie jest odporne na zachlapania i kurz, dzięki czemu świetnie sprawdzi się w wymagających warunkach. Wyświetlacz zabezpieczony szkłem Corning Gorilla Glass 5 chroni przed uszkodzeniami i zarysowaniami, co czyni smartfon niezawodnym towarzyszem nawet podczas intensywnych przyg&oacute;d.</p>
+			</div>
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona wydajnosc"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/wydajnosc.svg""></span>
+				<h3>
+					Płynna wydajność w każdej sytuacji</h3>
+				<p>
+					Wyposażony w procesor MediaTek Helio G99 Ultra, Redmi Note 14 zapewnia płynne działanie nawet przy wielu uruchomionych aplikacjach. Bateria o pojemności 5500 mAh oraz szybkie ładowanie 33 W pozwalają korzystać z urządzenia przez cały dzień bez konieczności częstego ładowania. Idealny zar&oacute;wno do pracy, jak i gier.</p>
+			</div>
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona dotykowyekran"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/dotykowyekran.svg""></span>
+				<h3>
+					Ekran, kt&oacute;ry zachwyca klarownością</h3>
+				<p>
+					Wyświetlacz o przekątnej 6,67 cala z odświeżaniem do 120 Hz zapewnia płynne przewijanie oraz wyrazistość obrazu nawet w pełnym słońcu dzięki jasności 1800 nit&oacute;w. Opatrzony certyfikatem T&Uuml;V Rheinland, chroni wzrok przed zmęczeniem, co pozwala na długie korzystanie z urządzenia bez obaw o dyskomfort oczu.</p>
+			</div>
+			<div class=""emo_text"">
+				<span class=""emoji""><img alt=""ikona bezpieczenstwo"" class=""lazyload"" data-src=""https://satysfakcja.stati.pl/icons_all/bezpieczenstwo.svg""></span>
+				<h3>
+					Bezpieczeństwo i łatwość użytkowania</h3>
+				<p>
+					Wbudowany czytnik linii papilarnych oraz optymalizacja ekranu dotykowego zapewniają szybki i bezpieczny dostęp do telefonu nawet w trudnych warunkach, takich jak wilgoć. Dzięki tym funkcjom Redmi Note 14 oferuje bezproblemowe użytkowanie i spełnia potrzeby wymagających użytkownik&oacute;w szukających niezawodności w każdej sytuacji.</p>
+			</div>
+		</div>
+	</div>
+	<!-- ICONS_END --><!-- GEEX -->
+	<div class=""desc_section geex_review"">
+		<h2>
+			Recenzja na portalu Geex</h2>
+		<div class=""geex_row"">
+			<div class=""geex_column"">
+				<div class=""geex_rank"">
+					<span>8<span>/10</span></span> <span>Ocena na portalu</span></div>
+				<div class=""geex_writer"">
+					<img class=""lazyload"" data-src=""https://allegro.stati.pl/AllegroIMG/geex/Malwina-Kochanska.jpg""> <span><span>Malwina Kochańska</span><br>
+					Redaktorka portalu Geex</span></div>
+			</div>
+			<div class=""column_main"">
+				<div class=""geex_text"">
+					<span class=""big_quote"">&nbsp;</span>
+					<p>
+						Xiaomi ponownie stara się zawojować średnią p&oacute;łkę, wprowadzając nowe odsłony swojego popularnego smartfona. Podstawowy Redmi Note 14 stawia na balans między stosownym wyposażeniem, dobrym aparatem a najniższą ceną, podczas gdy wersja Pro oferuje m.in. mocniejszy procesor, szybsze ładowanie i jeszcze lepszy aparat. Czy podstawowa wersja wystarczy do codziennych zadań, a może warto postawić na bardziej zaawansowane rozwiązania w Redmi Note 14 Pro?</p>
+				</div>
+				<div class=""geex_footer"">
+					<a href=""https://geex.x-kom.pl/recenzje/recenzja-porownanie-xiaomi-redmi-note-14-vs-note-14-pro/"" target=""_blank""><span>Zobacz pełną recenzję na portalu <img class=""footer_link lazyload"" data-src=""https://ftp.stati.pl/KP/icon.svg""></span></a> <img class=""geex_logo lazyload"" data-src=""https://ftp.stati.pl/KP/geex_bw.png""></div>
+			</div>
+		</div>
+	</div>
+	<!-- GEEX_END --></div>
+<script type=""text/javascript"">
+function keyToggle(selector) {
+	var selectedElements = selector.children;
+	if(selectedElements[0].innerText === ""+"") {
+		selectedElements[0].innerText = "" − "";
+	} else {
+		selectedElements[0].innerText = "" + "";
+	}
+	selectedElements[1].classList.toggle(""visible"");
+	selectedElements[2].classList.toggle(""visible"");
+}
+function activeVideo(id) {
+	document.querySelector("".collapse_miniature.active"").classList.remove(""active"");
+	document.getElementById(id).classList.add(""active"");
+	let newString = id.replace(""video_menu_"", ""video_review_"");
+	var activeText = document.querySelector("".video-container.active"");
+	activeText.classList.remove(""active"");
+	var newActiveText = document.getElementById(newString);
+	newActiveText.classList.add(""active"");
+}
+function show360(overlay) {
+	overlay.style.display = ""none"";
+}
+</script></div>"

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(conda install:*)",
+      "Bash(/Users/arturpietrzak/miniconda3/bin/pip install pandas openpyxl)",
+      "Bash(/Users/arturpietrzak/miniconda3/bin/pip install fastapi uvicorn)",
+      "Bash(/Users/arturpietrzak/miniconda3/bin/pip install pyyaml)",
+      "Bash(/Users/arturpietrzak/miniconda3/bin/pip install aiohttp)",
+      "Bash(/Users/arturpietrzak/miniconda3/bin/pip install openai)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:deepeval.com)",
+      "WebFetch(domain:openrouter.ai)",
+      "Bash(rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

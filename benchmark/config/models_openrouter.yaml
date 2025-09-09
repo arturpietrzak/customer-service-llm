@@ -1,0 +1,261 @@
+models:
+  mock:
+    provider: "mock"
+    model_name: "mock-model"
+    display_name: "Mock Model"
+    company: "Test"
+    max_tokens: 1000
+
+  bielik_11b_v2_3:
+    provider: "replicate"
+    model_name: "aleksanderobuchowski/bielik-11b-v2.3-instruct:dc287cda645e8f80c83ccb1b01c8c8fe8d652b4040c073e3c75112f20f983a2a"
+    display_name: "Bielik 11B v2.3"
+    company: "Speakleash"
+    max_tokens: 4096
+    price_per_million_output_tokens: 0.10
+
+  llama_4_scout:
+    provider: "openrouter"
+    model_name: "meta-llama/llama-4-scout"
+    display_name: "Llama 4 Scout"
+    company: "Meta"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.30
+
+  llama_3_1_405b:
+    provider: "openrouter"
+    model_name: "meta-llama/llama-3.1-405b-instruct"
+    display_name: "Llama 3.1 405B"
+    company: "Meta"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.80
+
+  llama_3_3_70b:
+    provider: "openrouter"
+    model_name: "meta-llama/llama-3.3-70b-instruct"
+    display_name: "Llama 3.3 70B"
+    company: "Meta"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.12
+
+  llama_3_1_8b:
+    provider: "openrouter"
+    model_name: "meta-llama/llama-3.1-8b-instruct"
+    display_name: "Llama 3.1 8B"
+    company: "Meta"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.02
+
+  gemini_2_5_pro:
+    provider: "openrouter"
+    model_name: "google/gemini-2.5-pro"
+    display_name: "Gemini 2.5 Pro"
+    company: "Google"
+    max_tokens: 8192
+    price_per_million_output_tokens: 10.00
+    reasoning_model: true
+
+  gemini_2_5_flash:
+    provider: "openrouter"
+    model_name: "google/gemini-2.5-flash"
+    display_name: "Gemini 2.5 Flash"
+    company: "Google"
+    max_tokens: 8192
+    price_per_million_output_tokens: 2.50
+
+  gemini_1_5_flash:
+    provider: "openrouter"
+    model_name: "google/gemini-flash-1.5"
+    display_name: "Gemini 1.5 Flash"
+    company: "Google"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.30
+
+  deepseek_chat_v3_1:
+    provider: "openrouter"
+    model_name: "deepseek/deepseek-chat-v3.1"
+    display_name: "DeepSeek Chat v3.1"
+    company: "DeepSeek"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.80
+
+  grok_4:
+    provider: "openrouter"
+    model_name: "x-ai/grok-4"
+    display_name: "Grok 4"
+    company: "xAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 15.00
+    reasoning_model: true
+
+  grok_3:
+    provider: "openrouter"
+    model_name: "x-ai/grok-3"
+    display_name: "Grok 3"
+    company: "xAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 15.00
+
+  grok_3_mini:
+    provider: "openrouter"
+    model_name: "x-ai/grok-3-mini"
+    display_name: "Grok 3 Mini"
+    company: "xAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.50
+
+  gpt_5:
+    provider: "openrouter"
+    model_name: "openai/gpt-5"
+    display_name: "GPT-5"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 10.00
+    reasoning_model: true
+
+  gpt_5_mini:
+    provider: "openrouter"
+    model_name: "openai/gpt-5-mini"
+    display_name: "GPT-5 Mini"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 2.00
+
+  gpt_5_nano:
+    provider: "openrouter"
+    model_name: "openai/gpt-5-nano"
+    display_name: "GPT-5 Nano"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.40
+
+  gpt_3_5_turbo:
+    provider: "openrouter"
+    model_name: "openai/gpt-3.5-turbo"
+    display_name: "GPT-3.5 Turbo"
+    company: "OpenAI"
+    max_tokens: 4096
+    price_per_million_output_tokens: 1.50
+
+  gpt_oss_120b:
+    provider: "openrouter"
+    model_name: "openai/gpt-oss-120b"
+    display_name: "GPT OSS 120B"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.28
+
+  gpt_oss_20b:
+    provider: "openrouter"
+    model_name: "openai/gpt-oss-20b"
+    display_name: "GPT OSS 20B"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.15
+
+  glm_4_5:
+    provider: "openrouter"
+    model_name: "z-ai/glm-4.5"
+    display_name: "GLM 4.5"
+    company: "Zhipu AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 1.32
+
+  glm_4_32b:
+    provider: "openrouter"
+    model_name: "z-ai/glm-4-32b"
+    display_name: "GLM 4 32B"
+    company: "Zhipu AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.10
+
+  mistral_medium_3_1:
+    provider: "openrouter"
+    model_name: "mistralai/mistral-medium-3.1"
+    display_name: "Mistral Medium 3.1"
+    company: "Mistral AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 2.00
+
+  mistral_small_3_2_24b:
+    provider: "openrouter"
+    model_name: "mistralai/mistral-small-3.2-24b-instruct"
+    display_name: "Mistral Small 3.2 24B"
+    company: "Mistral AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.10
+
+  mistral_7b:
+    provider: "openrouter"
+    model_name: "mistralai/mistral-7b-instruct"
+    display_name: "Mistral 7B"
+    company: "Mistral AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.054
+
+  ministral_8b:
+    provider: "openrouter"
+    model_name: "mistralai/ministral-8b"
+    display_name: "Ministral 8B"
+    company: "Mistral AI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.10
+
+  qwen3_235b_a22b_2507:
+    provider: "openrouter"
+    model_name: "qwen/qwen3-235b-a22b-2507"
+    display_name: "Qwen3 235B A22B 2507"
+    company: "Qwen"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.312
+
+  qwen_2_5_72b:
+    provider: "openrouter"
+    model_name: "qwen/qwen-2.5-72b-instruct"
+    display_name: "Qwen 2.5 72B"
+    company: "Qwen"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.207
+
+  qwen3_14b:
+    provider: "openrouter"
+    model_name: "qwen/qwen3-14b"
+    display_name: "Qwen3 14B"
+    company: "Qwen"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.24
+
+  qwen3_32b:
+    provider: "openrouter"
+    model_name: "qwen/qwen3-32b"
+    display_name: "Qwen3 32B"
+    company: "Qwen"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.072
+
+  gemini_2_5_flash_lite:
+    provider: "openrouter"
+    model_name: "google/gemini-2.5-flash-lite"
+    display_name: "Gemini 2.5 Flash-Lite (Judge)"
+    company: "Google"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.40
+
+  gpt_4o_mini_judge:
+    provider: "openrouter"
+    model_name: "openai/gpt-4o-mini"
+    display_name: "GPT-4o Mini (Judge)"
+    company: "OpenAI"
+    max_tokens: 8192
+    price_per_million_output_tokens: 0.60
+
+defaults:
+  temperature: 0.7
+  top_p: 0.9
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+  timeout: 30
+
+providers:
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"

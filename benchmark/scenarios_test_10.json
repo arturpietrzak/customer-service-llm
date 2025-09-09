@@ -1,0 +1,120 @@
+{
+  "scenarios": [
+    {
+      "id": "test-1",
+      "scenario_type": "incorrect",
+      "user_query": "Jaka jest cena iPhone 15?",
+      "expected_behavior": "Poinformować że nie sprzedajemy telefonów",
+      "context": {},
+      "difficulty": 1,
+      "category": "Telefony",
+      "producer": "Apple",
+      "product_ids": []
+    },
+    {
+      "id": "test-2",
+      "scenario_type": "incorrect",
+      "user_query": "Czy Samsung Galaxy S24 jest dostępny?",
+      "expected_behavior": "Poinformować że nie sprzedajemy telefonów Samsung",
+      "context": {},
+      "difficulty": 1,
+      "category": "Telefony",
+      "producer": "Samsung",
+      "product_ids": []
+    },
+    {
+      "id": "test-3",
+      "scenario_type": "correct",
+      "user_query": "Pokaż mi laptopy Lenovo",
+      "expected_behavior": "Pokazać dostępne laptopy Lenovo",
+      "context": {},
+      "difficulty": 1,
+      "category": "Laptopy",
+      "producer": "Lenovo",
+      "product_ids": []
+    },
+    {
+      "id": "test-4",
+      "scenario_type": "incorrect",
+      "user_query": "Pokaż mi latające samochody",
+      "expected_behavior": "Poinformować że kategoria nie istnieje",
+      "context": {},
+      "difficulty": 1,
+      "category": null,
+      "producer": null,
+      "product_ids": []
+    },
+    {
+      "id": "test-5",
+      "scenario_type": "correct",
+      "user_query": "Jakie są najlepsze słuchawki?",
+      "expected_behavior": "Pokazać popularne słuchawki",
+      "context": {},
+      "difficulty": 2,
+      "category": "Audio",
+      "producer": null,
+      "product_ids": []
+    },
+    {
+      "id": "test-6",
+      "scenario_type": "correct",
+      "user_query": "Ile kosztuje MacBook Air?",
+      "expected_behavior": "Podać cenę MacBook Air",
+      "context": {},
+      "difficulty": 1,
+      "category": "Laptopy",
+      "producer": "Apple",
+      "product_ids": [1292431]
+    },
+    {
+      "id": "test-7",
+      "scenario_type": "correct",
+      "user_query": "Czy jest promocja na telewizory?",
+      "expected_behavior": "Sprawdzić promocje",
+      "context": {},
+      "difficulty": 1,
+      "category": "TV",
+      "producer": null,
+      "product_ids": []
+    },
+    {
+      "id": "test-8",
+      "scenario_type": "correct",
+      "user_query": "Jaki router polecacie?",
+      "expected_behavior": "Polecić router",
+      "context": {},
+      "difficulty": 2,
+      "category": "Routery",
+      "producer": null,
+      "product_ids": []
+    },
+    {
+      "id": "test-9",
+      "scenario_type": "incorrect",
+      "user_query": "Sprzedajcie mi rakietę kosmiczną",
+      "expected_behavior": "Poinformować że nie sprzedajemy",
+      "context": {},
+      "difficulty": 1,
+      "category": null,
+      "producer": null,
+      "product_ids": []
+    },
+    {
+      "id": "test-10",
+      "scenario_type": "correct",
+      "user_query": "Jakie produkty Apple macie w ofercie?",
+      "expected_behavior": "Pokazać dostępne produkty Apple",
+      "context": {},
+      "difficulty": 1,
+      "category": null,
+      "producer": "Apple",
+      "product_ids": []
+    }
+  ],
+  "metadata": {
+    "description": "Test scenarios for customer service benchmark",
+    "total_scenarios": 10,
+    "categories": ["Telefony", "Audio", "Laptopy", "TV", "Routery"]
+  },
+  "generation_timestamp": "2025-08-30T13:30:00Z"
+}
