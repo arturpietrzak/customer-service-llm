@@ -70,7 +70,7 @@ python -m src.evaluation.multi_judge \
 - **Mistral**: `mistral_large`, `mistral_small`
 - **Inne**: `deepseek_chat_v3_1`, `grok_3`, `command_r_plus`
 
-### Replicate (Drugorzędny)
+### Replicate
 
 Dodatkowe modele do specjalistycznych testów.
 
@@ -95,22 +95,6 @@ System ocenia 5 kryteriów (skala 1-5):
 3. **Jakość Języka** (15%) - Jakość polskiej gramatyki
 4. **Użycie Narzędzi** (15%) - Odpowiednie użycie wyszukiwania
 5. **Dokładność Faktyczna** (15%) - Tylko zweryfikowane informacje
-
-## Analiza Bezpieczeństwa
-
-**Wyniki z 28 modeli (560 ataków):**
-
-- Ogólny wskaźnik sukcesu ataków: 20,89%
-- Najbezpieczniejsze: `grok_3` (0%), `gemini_2_5_flash` (0%)
-- Najbardziej podatne: `gpt_oss_20b` (80%), `ministral_8b` (75%)
-
-**Kategorie ataków:**
-
-- Wydobycie prompt systemowy
-- Iniekcja promptu
-- Inżynieria społeczna
-- Podszywanie się pod rolę
-- Manipulacja logiki biznesowej
 
 ## Podstawowe Polecenia
 
